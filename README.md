@@ -1,6 +1,12 @@
-#  Food Delivery Platform Analytics (SQL + Power BI)
+#  Food Delivery Platform Analytics
 
-## 📌 Project Overview
+## Problem Statement
+The food delivery platform operates across multiple cities with high order volumes and a large network of restaurants and delivery partners.
+However, despite strong demand, the business faces persistent challenges such as **order cancellations, delivery delays, SLA breaches, and declining customer ratings,** all of which contribute to hidden revenue loss.
+
+The key challenge is not demand generation, but inefficiencies in operations that negatively affect customer experience and revenue realization.
+
+## Project Overview
 This project analyzes a food delivery platform using **SQL‑driven analytics** to identify
 operational inefficiencies, customer experience issues, and revenue leakage.
 
@@ -9,7 +15,7 @@ The goal of the analysis is to demonstrate how data analytics can support
 
 ---
 
-## 🎯 Business Problem
+##  Business Problem
 The food delivery platform operates across multiple cities with a large network of restaurants
 and delivery partners. Despite high order volumes, the platform faces challenges such as:
 - High order cancellations
@@ -21,7 +27,7 @@ This project aims to diagnose **where the problems occur, why they occur, and ho
 
 ---
 
-## 🧠 Analytical Framework
+##  Analytical Framework
 The analysis is structured into **four business-focused blocks**:
 
 1. **Platform Supply & Presence**  
@@ -38,56 +44,42 @@ The analysis is structured into **four business-focused blocks**:
 
 ---
 
-## 📊 Key Insights
-- Platform demand and revenue are highly concentrated in metro cities such as **Bengaluru, Mumbai, and Delhi**.
-- The overall cancellation rate is high, indicating systemic operational inefficiencies rather than isolated issues.
-- Delivery delays have a strong negative impact on customer ratings, directly affecting customer satisfaction.
-- Order cancellations result in significant **estimated revenue loss**, especially in high‑volume cities.
-- Targeted operational improvements in priority cities can lead to meaningful revenue recovery.
+##  Insights from the analysis
+- The analysis reveals that **platform demand and revenue are highly concentrated in metro cities**, with Bengaluru emerging as the primary revenue and order‑volume driver, followed by Mumbai and Delhi. While these cities generate strong demand, mid‑tier cities show signs of **under‑monetization**, indicating untapped revenue potential.
+
+- Average Order Value varies across cities, with high‑volume locations relying more on **order quantity rather than higher basket value**. This suggests price sensitivity and heavy discounting, limiting revenue scalability despite strong demand.
+
+- Cancellation rates remain consistently high across cities, indicating **system‑wide operational issues rather than isolated problems**. High‑demand cities contribute the most to absolute revenue loss due to their large order volumes.
+
+- Delivery time analysis shows that **longer delivery durations and SLA breaches are directly associated with lower customer ratings**. This establishes a clear link between operational performance and customer experience.
+
+- Overall, the findings demonstrate a strong relationship between **delivery efficiency, customer satisfaction, and revenue realization**, where operational inefficiencies directly suppress business value.
 
 ---
 
-## 🛠 Tools & Technologies Used
+##  Tools & Technologies Used
 - **SQL** – Core data analysis and business logic
 - **Python (Google Colab)** – Data exploration and query execution
 - **Power BI** – 1‑page executive dashboard
 - **Notion** – Project documentation and storytelling
-- **GitHub** – Version control and portfolio hosting
 
 ---
 
-## 🗂 Data Schema
+##  Data Schema
 The project uses anonymized CSV‑based data modeled using fact and dimension tables.
 
 - Fact tables store transactional and operational data
 - Dimension tables provide contextual information (city, restaurant, customer, delivery partner)
 
-Detailed schema documentation is available in `data/sample_schema.md`.
+Detailed schema documentation is available in `data/data_schema.md`.
 
 ---
 
-## 📈 Dashboard
-A 1‑page Power BI dashboard was created to visualize:
-- Key platform KPIs
-- City‑level performance
-- Operational bottlenecks
-- Customer experience and revenue impact
-
-The dashboard is designed for **executive‑level decision making**.
-
----
-
-## 🚀 Key Takeaway
-This project demonstrates how **SQL‑driven analytics** can be used to:
-- Diagnose operational inefficiencies
-- Link customer experience to delivery performance
-- Quantify revenue impact
-- Support data‑backed business decisions
-
----
 
 ## 🔗 Documentation
-Detailed analysis, insights, and explanations are documented in Notion.
+Detailed analysis, insights, and explanations are documented in Notion.  
+🔗 [Food-Delivery-Analytics](https://www.notion.so/Food-Delivery-Crisis-Recovery-Analytics-260c4eacd6ff80909253c169a6664326?source=copy_link)
+
 
 ---
 
