@@ -1,5 +1,6 @@
---Block 2
---Purpose: Understand Average Order Value
+-- Block 2: Pricing & Order Value Analysis
+-- Purpose: Analyse customer spending behaviour using Average Order Value (AOV)
+-- to understand revenue quality across cities and cuisines.
 
 -- Overall AOV
 SELECT
