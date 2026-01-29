@@ -56,22 +56,6 @@ The analysis is structured into **four business-focused blocks**:
 
 ---
 
-## 📁 Repository Structure
-food-delivery-sql-analysis/
-│
-├── README.md
-│
-├── sql/
-│ ├── block1_supply.sql
-│ ├── block2_pricing.sql
-│ ├── block3_operations.sql
-│ └── block4_experience.sql
-│
-├── data/
-│ └── csv files
-
----
-
 ## 🗂 Data Schema
 The project uses anonymized CSV‑based data modeled using fact and dimension tables.
 
@@ -109,4 +93,4 @@ Detailed analysis, insights, and explanations are documented in Notion.
 
 ## 👤 Author
 **Divyasri J**  
-Aspiring Data Analyst | SQL | Power BI | Python
+Data Analyst | SQL | Power BI | Python
