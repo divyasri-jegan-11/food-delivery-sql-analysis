@@ -1,4 +1,5 @@
---Block 1
+-- Block 1: Platform Supply & Presence
+-- Purpose: Understand restaurant and delivery partner distribution by city
 --Restaurant Count by City 
 
 SELECT
