@@ -82,7 +82,3 @@ Detailed analysis, insights, and explanations are documented in Notion.
 
 
 ---
-
-## 👤 Author
-**Divyasri J**  
-Data Analyst | SQL | Power BI | Python
